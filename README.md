@@ -35,3 +35,5 @@ In this representation, we sample the entire latent space using a 50x50 grid. Fo
 ## Demo
 
 Demo video coming soon!
+
+A GUI for exploring these latent representations is avaliable in the `GUI/` directory of this repo. It uses tkinter, libmapper, and a fork of amSynth to operate. Further instructions are provided in that directory.
