@@ -15,8 +15,6 @@ In this work, we use [amSynth](https://github.com/amsynth/amsynth) as a test bed
 
 Our VAE architecture can be found in `GUI/VAE.py`. A figure depicting the structure is shown below.
 
-![VAE_arch](https://github.com/peacheym/LatentRepresentations/assets/15327742/3e6ae43e-a00b-45de-a4ee-b652bb62083e)
-
 ## Latent Representations
 
 Once the VAE architecure is fully trained, we generate two _Latent Representations_ based on attributes of the VAE's latent space.
