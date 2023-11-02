@@ -29,6 +29,10 @@ In this representation, we sample the entire latent space using a 50x50 grid. Fo
 
 ![depth_ls](https://github.com/peacheym/LatentRepresentations/assets/15327742/3c4f97ef-c491-4b34-a8bc-56a83644df16)
 
+## Poster
+
+![LatentRepsPoster](https://github.com/peacheym/LatentRepresentations/assets/15327742/ded23183-ce20-47a2-9e6c-301db8af3a31)
+
 ## Demo
 
 Demo video coming soon!
