@@ -6,6 +6,11 @@ This work introduced a method for generating synthesizer patches using a VAE wit
 
 In this work, we use [amSynth](https://github.com/amsynth/amsynth) as a test bed, with plans to incorporate similar pipelines for other synthesizers.
 
+## Poster
+
+![LatentRepsPoster](https://github.com/peacheym/LatentRepresentations/assets/15327742/ded23183-ce20-47a2-9e6c-301db8af3a31)
+
+
 ## VAE Architecture
 
 Our VAE architecture can be found in `GUI/VAE.py`. A figure depicting the structure is shown below.
@@ -28,10 +33,6 @@ In this representation, each patch used for training the VAE is again pushed thr
 In this representation, we sample the entire latent space using a 50x50 grid. For each of the sampled latent vectors, we decode the latent vector in order to generate a new synthesizer patch, load that patch into amSynth, record a 4 second audio clip of the resulting sound, and analyze that sound using the [AudioCommons Timbral Analysis Toolkit](https://github.com/AudioCommons/timbral_models). We then use a perceptually uniform colormap to encode the entire latent space based on timbral values, as shown below.
 
 ![depth_ls](https://github.com/peacheym/LatentRepresentations/assets/15327742/3c4f97ef-c491-4b34-a8bc-56a83644df16)
-
-## Poster
-
-![LatentRepsPoster](https://github.com/peacheym/LatentRepresentations/assets/15327742/ded23183-ce20-47a2-9e6c-301db8af3a31)
 
 ## Demo
 
